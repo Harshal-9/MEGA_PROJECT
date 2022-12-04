@@ -44,4 +44,9 @@ public class ChangeFurnitureColor : MonoBehaviour
         objectToMove.GetComponent<MyOwnReColor>().SetSelected3();
     }
 
+    public void SetOriginal()
+    {
+        objectToMove.GetComponent<MyOwnReColor>().SetOriginalMaterial();
+    }
+
 }

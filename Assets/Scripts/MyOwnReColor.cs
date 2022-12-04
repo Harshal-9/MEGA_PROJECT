@@ -68,21 +68,21 @@ public class MyOwnReColor : MonoBehaviour
         }
         return true;
     }
-    // public bool SetOriginalMaterial()
-    // {
-    //     if (gameObject.GetComponent<MeshRenderer>() != null) // has no children
-    //     {
-    //         gameObject.GetComponent<MeshRenderer>().material = originalMaterials[0];
-    //     }
-    //     else
-    //     {
-    //         int i = 0;
-    //         foreach(GameObject child in children)
-    //         {
-    //             child.GetComponent<MeshRenderer>().material = originalMaterials[i];
-    //             i++;
-    //         }
-    //     }
-    //     return true;
-    // }
+    public bool SetOriginalMaterial()
+    {
+        if (gameObject.GetComponent<MeshRenderer>() != null) // has no children
+        {
+            gameObject.GetComponent<MeshRenderer>().material = originalMaterials[0];
+        }
+        else
+        {
+            int i = 0;
+            foreach(GameObject child in children)
+            {
+                child.GetComponent<MeshRenderer>().material = originalMaterials[i];
+                i++;
+            }
+        }
+        return true;
+    }
 }
