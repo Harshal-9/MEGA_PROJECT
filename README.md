@@ -1,9 +1,8 @@
 # Interaction Design for AR
-Furniture Placement App for Android, completed as part of coursework in school  
-Referenced from https://varlabs.comp.nus.edu.sg/unitylab/learn/core_3_new.html/
+Furniture Placement App for Android, completed as part of mega project in college  
 
 ## Unity Version
-Unity 2020.2.1f1
+Unity 2021.3.13f1
 
 ## Packages Used
 - 2D Sprite 1.0.0
@@ -20,4 +19,3 @@ Unity 2020.2.1f1
 - Visual Studio Code Editor 1.2.3
 - Visual Studio Editor 2.0.5
 - XR Plugin Management 3.2.17
-
